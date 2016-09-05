@@ -1,0 +1,35 @@
+body{
+  background-image: url("../Img/pokemonYellowMapa.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+}
+.jogador{
+  background: url("../Img/ash.png") no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.olhando{
+  background-position: 0 1px;
+  width: 68px;
+  height: 60px;
+}
+.frente{
+  background-position: -0 -173px;
+  width: 60px;
+  height: 60px;
+}
+.lado-esquerdo{
+  background-position: -0 -86px;
+  width: 40px;
+  height: 70px;
+}
+.canPokemon{
+  position: absolute;
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+}
